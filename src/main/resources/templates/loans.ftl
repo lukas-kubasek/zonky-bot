@@ -6,6 +6,11 @@
     <meta http-equiv="refresh" content="30">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <title>Zonky Loan Bot</title>
+    <style type="text/css">
+        table.smaller th, table.smaller td {
+            font-size: 85%;
+        }
+    </style>
 </head>
 <body>
 
@@ -33,7 +38,7 @@
                     </tr>
                     <tr>
                         <th>Date Published</th>
-                        <td>${loan.datePublished!}</td>
+                        <td class="text-success">${loan.datePublished!}</td>
                     </tr>
                     <tr>
                         <th>Deadline</th>
