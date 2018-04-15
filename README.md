@@ -11,10 +11,12 @@ The newly published loans are printed to the log and added to the in-memory Loan
 which can be accessed via the provided REST API or via a simple web page rendering the latest loans
 in tabular form.
 
-Sample Deployment
------------------
+CI/CD - Sample Deployment
+-------------------------
 
-The app has been deployed to Heroku, just for fun.
+[![Build Status](https://travis-ci.org/lukas-kubasek/zonky-bot.svg?branch=master)](https://travis-ci.org/lukas-kubasek/zonky-bot)
+
+The app has been built using Travis CI and deployed to Heroku, just for fun.
 
 Exposed Loans web page:
 * https://zonky-bot.herokuapp.com/
