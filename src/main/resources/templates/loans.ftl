@@ -17,7 +17,7 @@
     </nav>
 
     <div class="alert alert-secondary" role="alert">
-        Newly published loans will appear at the top.
+        Auto-refresh has been enabled. Newly published loans will appear at the top.
     </div>
 
     <#list loans as loan>
