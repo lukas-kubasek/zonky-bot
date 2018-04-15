@@ -11,6 +11,17 @@ The newly published loans are printed to the log and added to the in-memory Loan
 which can be accessed via the provided REST API or via a simple web page rendering the latest loans
 in tabular form.
 
+Sample Deployment
+-----------------
+
+The app has been deployed to Heroku, just for fun.
+
+Exposed Loans web page:
+* https://zonky-bot.herokuapp.com/
+
+Exposed REST API end-point:
+* https://zonky-bot.herokuapp.com/loan/latest 
+
 How to Build
 ------------
 
@@ -35,8 +46,8 @@ or
 java -jar target/zonky-bot-1.0-SNAPSHOT.jar 
 ```
  
-Exposed endpoints
------------------
+Exposed endpoints locally
+-------------------------
 
 Exposed Web UI rendering the latest loans:
 * http://localhost:8080
