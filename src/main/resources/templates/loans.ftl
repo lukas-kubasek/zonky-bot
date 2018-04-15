@@ -13,7 +13,7 @@
 
     <nav class="navbar navbar-dark bg-dark mb-3">
         <span class="navbar-brand mb-0 h1">Zonky Bot</span>
-        <span class="navbar-brand mb-0">Latest Loans</span>
+        <span class="navbar-brand mb-0">Latest Published Loans on Marketplace</span>
     </nav>
 
     <div class="alert alert-secondary" role="alert">
