@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.math.BigDecimal;
 import java.time.OffsetDateTime;
 import java.util.List;
 import java.util.regex.Pattern;
@@ -37,7 +36,6 @@ public class MarketplaceClientRestImplTest {
             assertThat(loan.getInterestRate()).isPositive();
             assertThat(loan.getRating()).isNotBlank();
             assertThat(loan.getAmount()).isPositive();
-            assertThat(loan.getRemainingInvestment()).isGreaterThanOrEqualTo(BigDecimal.ZERO);
             assertThat(loan.getDatePublished()).isCloseTo(OffsetDateTime.now(), byLessThan(1, WEEKS));
             assertThat(loan.getDeadline()).isAfter(loan.getDatePublished());
         });

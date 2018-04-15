@@ -17,7 +17,6 @@ public class Loan {
     private BigDecimal interestRate;
     private String rating;
     private BigDecimal amount;
-    private BigDecimal remainingInvestment;
     private OffsetDateTime datePublished;
     private OffsetDateTime deadline;
 
@@ -77,14 +76,6 @@ public class Loan {
         this.amount = amount;
     }
 
-    public BigDecimal getRemainingInvestment() {
-        return remainingInvestment;
-    }
-
-    public void setRemainingInvestment(BigDecimal remainingInvestment) {
-        this.remainingInvestment = remainingInvestment;
-    }
-
     public OffsetDateTime getDatePublished() {
         return datePublished;
     }
@@ -111,7 +102,6 @@ public class Loan {
                 .add("interestRate", interestRate)
                 .add("rating", rating)
                 .add("amount", amount)
-                .add("remainingInvestment", remainingInvestment)
                 .add("datePublished", datePublished)
                 .add("deadline", deadline)
                 .toString();
