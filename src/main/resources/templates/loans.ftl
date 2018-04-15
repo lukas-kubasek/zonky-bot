@@ -55,10 +55,6 @@
                         <th>Amount</th>
                         <td>${loan.amount!}</td>
                     </tr>
-                    <tr>
-                        <th>Remaining Investment</th>
-                        <td>${loan.remainingInvestment!}</td>
-                    </tr>
                     </tbody>
                 </table>
             </div>
