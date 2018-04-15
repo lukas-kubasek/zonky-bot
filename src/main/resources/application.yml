@@ -1,0 +1,8 @@
+app:
+  loans:
+    in-mem-repo-size: 20
+    initial-loans-to-load-count: 5
+    new-loan-check-interval-millis: 30000
+  marketplace-api:
+    uri: https://api.zonky.cz/loans/marketplace
+    user-agent: ZonkyBot/1.0 (https://github.com/lukas-kubasek/zonky-bot)
